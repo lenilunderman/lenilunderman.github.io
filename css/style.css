@@ -1,3 +1,22 @@
 #about{
   background-color: #ebebeb;
 }
+
+section#stats{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#stats .icon-part i{
+  font-size: 5.8rem;
+  color: #dbbfd0;
+}
+
+#stats .stat-title{
+  padding-top: 2rem;
+}
+
+#services{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
