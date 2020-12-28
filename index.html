@@ -1009,34 +1009,29 @@
 			<div class="col-twelve">
 
 				<!-- form -->
-				<form id="contactForm" action="https://formspree.io/f/mgepppwd" method="POST">
+				<form action="https://formspree.io/f/mgepppwd" method="POST">
 					<fieldset>
 
 						<div class="form-field">
-							<input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2"
-								required="">
+							<input type="text" name="name" placeholder="Name" minlength="2" required="">
 						</div>
 						<div class="form-field">
-							<input name="_replyto" type="email" id="contactEmail" placeholder="Email" value=""
-								required="">
+							<input type="email" name="_replyto" placeholder="Email" required="">
 						</div>
 						<div class="form-field">
-							<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+							<textarea name="message" placeholder="message" rows="10" cols="50" required=""></textarea>
 						</div>
 						<div class="form-field">
-							<textarea name="message" id="contactMessage" placeholder="message" rows="10" cols="50"
-								required=""></textarea>
-						</div>
-						<div class="form-field">
-							<button class="submitform" type="submit">Submit email </button>
-							<div id="submit-loader">
+							<input type="submit" value="Send email">
+							<!-- <input class="submitform" type="submit">Submit email </input> -->
+							<!-- <div id="submit-loader">
 								<div class="text-loader">Sending...</div>
 								<div class="s-loader">
 									<div class="bounce1"></div>
 									<div class="bounce2"></div>
 									<div class="bounce3"></div>
 								</div>
-							</div>
+							</div> -->
 						</div>
 
 					</fieldset>
