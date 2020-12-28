@@ -35,3 +35,10 @@ header .logo a {
       background-size: auto;
   background-size: 92px 15px;
 }
+
+#send-email{
+  color: #cc005f;
+  width: 100%;
+  margin-top: 15px;
+  background-color: white;
+}
